@@ -1,0 +1,116 @@
+div{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    float: left;
+    margin: 5px;
+
+}
+
+#div1{
+    /* background: repeating-linear-gradient(brown,black
+    ); */
+    border: brown solid 3px;
+    animation: another 3s infinite;
+
+}
+
+@-webkit-keyframes myAnimation{
+    from{
+        background-color: cyan;
+        left: 20px;
+        top: 0;
+    }
+    to{
+        background-color: black;
+        left: 100px;
+        top: 200px;
+        border-radius: 50%;
+    }
+}
+
+@-webkit-keyframes another{
+    10%{
+        background-color: cyan;
+        left: 20px;
+        top: 0px;
+        border-radius: 50%;
+    }
+    20%{
+        background-color: black;
+        left: 20px;
+        top: 400px;
+        border-radius: 50%;
+    }
+    30%{
+        background-color: cyan;
+        left: 20px;
+        top: 300px;
+        border-radius: 50%;
+    }
+    40%{
+        background-color: black;
+        left: 20px;
+        top: 400px;
+        border-radius: 50%;
+    }
+    50%{
+        background-color: cyan;
+        left: 20px;
+        top: 200px;
+        border-radius: 50%;
+    }
+    60%{
+        background: linear-gradient(black,cyan);
+        left: 20px;
+        top: 200px;
+        border-radius: 50%;
+    }
+    70%{
+        background: linear-gradient(black,cyan);
+        transform: rotate(90deg);
+        left: 20px;
+        top: 200px;
+        border-radius: 50%;
+    }
+    80%{
+        background: linear-gradient(black,cyan);
+        transform: rotate(90deg);
+        left: 20px;
+        top: 200px;
+        border-radius: 50%;
+    }
+    90%{
+        background: linear-gradient(black,cyan);
+        transform: rotate(90deg);
+        left: 20px;
+        top: 200px;
+        border-radius: 50%;
+    }
+    100%{
+        background: linear-gradient(black,cyan);
+        transform: rotate(90deg);
+        left: 20px;
+        top: 400px;
+        border-radius: 50%;
+    }
+}
+
+#div2{
+    background:radial-gradient(cyan,black,cyan,black);
+    border: rgb(11, 10, 10) solid 3px;
+    box-shadow: maroon 5px 5px 10px;
+    text-shadow:maroon 3px 3px 5px;
+    font-size: large;
+    transform: rotate(90deg);
+}
+
+#div3{
+    background: repeating-radial-gradient(rgb(104, 74, 54) 55%,black 89%);
+    border: solid 5px;
+    border-radius: 50%;
+    border-image: url("./resources/border.jpeg") 160 round;
+    border-image-width: 10px;
+    border-image-repeat: round;
+}
+

@@ -1,0 +1,23 @@
+body
+{
+ 
+}
+
+/* #name{
+    background-color:#F9F5E7;
+} */
+
+#hobbies{
+    background-color: #F1DBBF;
+}
+
+.navbar_page1{
+    background-color:#DCD7C9;
+}
+
+.contact{
+    font-family: Raleway;
+    font-size: medium;
+    color: white;
+    align-self: center;
+}

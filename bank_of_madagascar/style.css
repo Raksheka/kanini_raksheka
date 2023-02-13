@@ -1,0 +1,31 @@
+body{
+    font-family: Raleway;
+    position: relative;
+}
+
+.title{
+    background-color:  #1A120B;
+    color: #D5CEA3;
+    padding: 2rem 2rem 2rem 2rem;
+    font-family: Raleway;
+    font-size: xx-large;
+    align-content: center;
+    position: relative;
+}
+
+.login{
+    color:#1A120B;
+    background-color:#D5CEA3;
+    position: relative;
+    /* padding: 40px 400px 40px 650px; */
+    text-align: center;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+    height: 300px;
+    border-radius: 6px;
+}
+
+.form1{
+    border-width: 5px;
+    border-style: solid;
+}

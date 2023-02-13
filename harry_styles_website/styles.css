@@ -1,0 +1,72 @@
+body{
+margin: 0 0 0 0;
+font-family: Raleway;
+position: relative;
+}
+
+#header{
+padding: 20px 20px 20px 20px;
+background-color: #461111;
+color: #FAF2DA;
+font-size: large;
+font-size: 50px;
+}
+
+.flex-container {
+  display: flex;
+  padding: 20px 0 20px 0;
+}
+
+
+#navibar{
+padding: 20px 20px 20px 20px;
+background-color: #040303;
+color: #FAF2DA;
+}
+
+#sales{
+
+background-image: url(./resources/images/harry_blur.jpg) ;
+background-size: cover;
+
+/* background-image: -webkit-gradient(0.5); */
+/* &::{
+    content: "";
+    background-image: url(./resources/images/harry_blur.jpg) ;
+    opacity: 0.5;
+    background-size: cover;
+    /* background-color: rgba(0,0,0,0.75); */
+}
+
+
+#contact{
+
+}
+
+.lot_div{
+    font-size: larger;
+    
+}
+
+.link_navibar{
+color: #FAF2DA;
+text-decoration: none;
+font-size: larger;
+text-align: center;
+}
+
+.image_div{
+text-align: center;
+
+}
+
+.image_size{
+    height: 300px;
+    width: 300px;
+}
+
+
+a:hover{
+    color: #E28F83;
+}
+
